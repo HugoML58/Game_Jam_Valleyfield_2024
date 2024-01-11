@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5B66A4FF-A85F-4143-A6C4-C8BFEB872C5F}" SchemaVersion="119">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{5B66A4FF-A85F-4143-A6C4-C8BFEB872C5F}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Insanity" ID="{87C9FDA7-EDA3-45E4-A30F-8548C64DBDB4}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

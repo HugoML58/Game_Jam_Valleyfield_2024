@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7AE34A12-767B-4BB9-B8B0-8A87D96B1889}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{7AE34A12-767B-4BB9-B8B0-8A87D96B1889}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Item_Obtain" ID="{DB53BECB-4350-48FC-8B42-BCC9EB681A91}">
+					<ChildrenList>
+						<Action Name="" ID="{B388985C-CC67-45F7-BD96-ADB08DF29225}" ShortID="568182459">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Item_obtain" ID="{56B4705B-6992-4A78-8AE3-03C387255FFF}" WorkUnitID="{6B36B9DE-A43C-41B0-9863-6957367B6A5D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Dialogue_start" ID="{3D795D74-9A5D-4995-9064-FD82E3B357E3}">
+					<ChildrenList>
+						<Action Name="" ID="{B1EA6F61-D1A4-4CA0-B678-4893D5C77987}" ShortID="395806262">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dialogue" ID="{B7DC60BA-3793-4D29-B1F4-BD3DA694C21A}" WorkUnitID="{6B36B9DE-A43C-41B0-9863-6957367B6A5D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Footsteps" ID="{F9E536FA-8518-457D-9081-50E96E0DB13F}">
+					<ChildrenList>
+						<Action Name="" ID="{F5CD676E-5965-4D19-A8EB-649187CA98A5}" ShortID="955919685">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps_Group" ID="{B9C04502-1B2E-4C56-A97E-E2FBB5CE04EE}" WorkUnitID="{6B36B9DE-A43C-41B0-9863-6957367B6A5D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,27 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1196626930	Dialogue_start			\Default Work Unit\Dialogue_start	
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+	2587207232	Item_Obtain			\Default Work Unit\Item_Obtain	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	712897245	Mud	Footsteps			
+	1509588232	Path	Footsteps			
+	4248645337	Grass	Footsteps			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	34996162	Insanity			\Default Work Unit\Insanity	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	136518174	Footsteps_Grass	D:\Personel\GameJams\Valleyfield\real\audio\Wwise\GameJam_Valleyfield\.cache\Windows\SFX\hitting-tall-grass-32282_C084ED00.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Group\Footsteps_Grass		74980
+	213146966	Cult_Leader	D:\Personel\GameJams\Valleyfield\real\audio\Wwise\GameJam_Valleyfield\.cache\Windows\SFX\angelic-pad-loopwav-14643_C0A424E4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cult_Leader		28901352
+	380117912	Footsteps_Mud	D:\Personel\GameJams\Valleyfield\real\audio\Wwise\GameJam_Valleyfield\.cache\Windows\SFX\soil-steps-87382_3237F020.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Group\Footsteps_Mud		43476
+	389282988	State_Insane	D:\Personel\GameJams\Valleyfield\real\audio\Wwise\GameJam_Valleyfield\.cache\Windows\SFX\base_insane - Bloc 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\State_Insane		9676896
+	445835077	Item_obtain	D:\Personel\GameJams\Valleyfield\real\audio\Wwise\GameJam_Valleyfield\.cache\Windows\SFX\magic-mallet-6262_B439132F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Item_obtain		186824
+	517552836	State_Normal	D:\Personel\GameJams\Valleyfield\real\audio\Wwise\GameJam_Valleyfield\.cache\Windows\SFX\BGM_Normal_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\State_Normal		9676896
+	517773956	Footsteps_Path	D:\Personel\GameJams\Valleyfield\real\audio\Wwise\GameJam_Valleyfield\.cache\Windows\SFX\footsteps_boots_gritty_ground_gravel-6028_A22DAE0B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Group\Footsteps_Path		58352
+	588399676	State_Heartbeat	D:\Personel\GameJams\Valleyfield\real\audio\Wwise\GameJam_Valleyfield\.cache\Windows\SFX\heartbeat-sound-effect-111218_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\State_Heartbeat		1990752
+	1055453156	Dialogue	D:\Personel\GameJams\Valleyfield\real\audio\Wwise\GameJam_Valleyfield\.cache\Windows\SFX\blehblerbleh-86517_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue		89952
+

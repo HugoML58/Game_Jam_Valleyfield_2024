@@ -1,0 +1,212 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{2BB724EE-03C9-4C45-B3A1-703502EB86DD}",
+    "Language": "SFX",
+    "Hash": "{35CB3936-CC39-3F3C-311A-E7DA45694A0D}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "136518174",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "hitting-tall-grass-32282.wav",
+      "CachePath": "SFX/hitting-tall-grass-32282_C084ED00.wem"
+     },
+     {
+      "Id": "213146966",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "angelic-pad-loopwav-14643.wav",
+      "CachePath": "SFX/angelic-pad-loopwav-14643_C0A424E4.wem"
+     },
+     {
+      "Id": "380117912",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "soil-steps-87382.wav",
+      "CachePath": "SFX/soil-steps-87382_3237F020.wem"
+     },
+     {
+      "Id": "389282988",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "base_insane - Bloc 1.wav",
+      "CachePath": "SFX/base_insane - Bloc 1_818F3B66.wem"
+     },
+     {
+      "Id": "445835077",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "magic-mallet-6262.wav",
+      "CachePath": "SFX/magic-mallet-6262_B439132F.wem"
+     },
+     {
+      "Id": "517552836",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BGM_Normal.wav",
+      "CachePath": "SFX/BGM_Normal_FBC78EF0.wem"
+     },
+     {
+      "Id": "517773956",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "footsteps_boots_gritty_ground_gravel-6028.wav",
+      "CachePath": "SFX/footsteps_boots_gritty_ground_gravel-6028_A22DAE0B.wem"
+     },
+     {
+      "Id": "588399676",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "heartbeat-sound-effect-111218.wav",
+      "CachePath": "SFX/heartbeat-sound-effect-111218_FBC78EF0.wem"
+     },
+     {
+      "Id": "1055453156",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "blehblerbleh-86517.wav",
+      "CachePath": "SFX/blehblerbleh-86517_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1196626930",
+      "Name": "Dialogue_start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue_start",
+      "GUID": "{3D795D74-9A5D-4995-9064-FD82E3B357E3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.936",
+      "DurationMax": "0.936",
+      "MediaRefs": [
+       {
+        "Id": "1055453156"
+       }
+      ]
+     },
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Footsteps",
+      "GUID": "{F9E536FA-8518-457D-9081-50E96E0DB13F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.29591244",
+      "DurationMax": "1.0754569",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "712897245",
+         "GUID": "{0569807A-7137-497A-B93B-0D5D2061E8D5}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "380117912"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "1509588232",
+         "GUID": "{3995379C-C122-45FF-B807-2D8629607E5B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "517773956"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "4248645337",
+         "GUID": "{3BFDF6FD-4672-44BD-BE08-9418E89DB518}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "136518174"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "2587207232",
+      "Name": "Item_Obtain",
+      "ObjectPath": "\\Events\\Default Work Unit\\Item_Obtain",
+      "GUID": "{DB53BECB-4350-48FC-8B42-BCC9EB681A91}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2042844",
+      "DurationMax": "2.025357",
+      "MediaRefs": [
+       {
+        "Id": "445835077"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "34996162",
+      "Name": "Insanity",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Insanity",
+      "GUID": "{87C9FDA7-EDA3-45E4-A30F-8548C64DBDB4}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps",
+      "GUID": "{3104416C-1CC2-4285-A652-70CD8971815F}",
+      "Switches": [
+       {
+        "Id": "712897245",
+        "Name": "Mud",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Mud",
+        "GUID": "{0569807A-7137-497A-B93B-0D5D2061E8D5}"
+       },
+       {
+        "Id": "1509588232",
+        "Name": "Path",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Path",
+        "GUID": "{3995379C-C122-45FF-B807-2D8629607E5B}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Grass",
+        "GUID": "{3BFDF6FD-4672-44BD-BE08-9418E89DB518}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8E7FD848-37CB-D18C-4B4B-CCDE9AFBA143}"
+ }
+}
